@@ -1,0 +1,54 @@
+name: Makefile CI
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+# things to add
+# install Hugo  CLI
+# correct targets
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+    env:
+      WWW_USER: ${{secrets.WWW_USER}}
+    steps:
+      - name: 🛒 Checkout
+        uses: actions/checkout@v3
+      - name: ✨ Setup Hugo
+        run: |
+          sudo snap install hugo
+          which hugo
+          hugo version
+
+      - name: set up ssh key
+        run: |
+          mkdir -p ~/.ssh
+          ssh-keyscan -H www.berczuk.com > ~/.ssh/known_hosts
+          echo "${{secrets.PUBLISH_SSH_KEY}}" > ~/.ssh/id_rsa
+          chmod 600 ~/.ssh/id_rsa
+      - name: deploy site
+        run: |
+            make gha-deploy
+      - name: check for changes
+        shell: bash
+        run: | 
+          if test $(git diff --quiet ; echo "$?") != 0
+          then
+            echo "CHANGE_STATUS=1" >> $GITHUB_ENV
+          else
+            echo "CHANGE_STATUS=0" >> $GITHUB_ENV
+          fi            
+          echo "change status = ${{ env.CHANGE_STATUS }}"
+      - name: Commit Pages
+        if: ${{ env.CHANGE_STATUS == 1}}
+        run: |
+          git config --global user.name 'Steve Berczuk (Actions)'
+          git config --global user.email 'steve@berczuk.com'
+          git add public
+          git commit -m "Add Generated site files" public/
+          git push
+      # add a deploy step, I need an env var for WWW_USER and also the ssh key for scp
