@@ -4,38 +4,14 @@
   
     
       <url>
-            <loc>http://localhost:1313/</loc>
+            <loc>https://www.prattfarmsoftware.com/</loc>
             <lastmod>2019-03-11T00:00:00+00:00</lastmod>
           </url>
     
   
     
       <url>
-            <loc>http://localhost:1313/project/</loc>
-            <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-          </url>
-    
-  
-    
-  
-    
-      <url>
-            <loc>http://localhost:1313/project/fitbit/</loc>
-            <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-          </url>
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-      <url>
-            <loc>http://localhost:1313/services/</loc>
+            <loc>https://www.prattfarmsoftware.com/project/</loc>
             <lastmod>2019-03-11T00:00:00+00:00</lastmod>
           </url>
     
@@ -44,19 +20,43 @@
   
     
       <url>
-            <loc>http://localhost:1313/about/</loc>
+            <loc>https://www.prattfarmsoftware.com/project/fitbit/</loc>
+            <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+          </url>
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+      <url>
+            <loc>https://www.prattfarmsoftware.com/services/</loc>
+            <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+          </url>
+    
+  
+    
+  
+    
+      <url>
+            <loc>https://www.prattfarmsoftware.com/about/</loc>
           </url>
     
   
     
       <url>
-            <loc>http://localhost:1313/approach/</loc>
+            <loc>https://www.prattfarmsoftware.com/approach/</loc>
           </url>
     
   
     
       <url>
-            <loc>http://localhost:1313/contact/</loc>
+            <loc>https://www.prattfarmsoftware.com/contact/</loc>
           </url>
     
   

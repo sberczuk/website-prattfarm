@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Services on Pratt Farm Software Engineering LLC</title>
-    <link>http://localhost:1313/tags/services/</link>
+    <link>https://www.prattfarmsoftware.com/tags/services/</link>
     <description>Recent content in Services on Pratt Farm Software Engineering LLC</description>
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>© 2024 Pratt Farm Software Engineering LLC &amp; Steve Berczuk</copyright>
     <lastBuildDate>Mon, 11 Mar 2019 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/services/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.prattfarmsoftware.com/tags/services/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Services</title>
-      <link>http://localhost:1313/services/</link>
+      <link>https://www.prattfarmsoftware.com/services/</link>
       <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/services/</guid>
+      <guid>https://www.prattfarmsoftware.com/services/</guid>
       <description>Pratt Farm Software Engineering can offer services both tactical and strategic.</description>
     </item>
   </channel>

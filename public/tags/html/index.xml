@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Html on Pratt Farm Software Engineering LLC</title>
-    <link>http://localhost:1313/tags/html/</link>
+    <link>https://www.prattfarmsoftware.com/tags/html/</link>
     <description>Recent content in Html on Pratt Farm Software Engineering LLC</description>
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>© 2024 Pratt Farm Software Engineering LLC &amp; Steve Berczuk</copyright>
     <lastBuildDate>Mon, 11 Mar 2019 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/html/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.prattfarmsoftware.com/tags/html/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Fitbit</title>
-      <link>http://localhost:1313/project/fitbit/</link>
+      <link>https://www.prattfarmsoftware.com/project/fitbit/</link>
       <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/project/fitbit/</guid>
+      <guid>https://www.prattfarmsoftware.com/project/fitbit/</guid>
       <description>Fitbit # At Fitbit he was employee 2 in the newly formed Boston office.</description>
     </item>
   </channel>
